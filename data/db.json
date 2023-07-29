@@ -1,0 +1,15 @@
+{
+  "blogs": [
+    {
+      "Username": "Nikhil Kumar Marati",
+      "body": "Hello Everyone !!",
+      "id": 1
+    },
+
+    {
+      "Username": "Ram Preetham",
+      "body": "Hii Everyone !!",
+      "id": 1
+    }
+  ]
+}

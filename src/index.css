@@ -1,0 +1,171 @@
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400;500;600;700&display=swap');
+
+/* base styles */
+* {
+  margin: 0;
+  font-family: "Quicksand";
+  color: #333;
+}
+.navbar {
+  padding: 20px;
+  display: flex;
+  align-items: center;
+  max-width: 700px;
+  margin: 0 auto;
+  border-bottom: 5px solid #f2f2f2;
+}
+.navbar h1 {
+  color: #f1356d;
+}
+.navbar .links {
+  margin-left: auto;
+}
+.navbar a {
+  margin-left: 16px;
+  text-decoration: none;
+  padding: 6px;
+}
+.navbar a:hover {
+  color: #f1356d;
+}
+.content {
+  max-width: 700px;
+  margin: 40px auto;
+  padding: 20px;
+}
+
+/* blog previews / list */
+.blog-preview {
+  padding: 10px 16px;
+  margin: 20px 0;
+  border-bottom: 1px solid #fafafa;
+  box-shadow: 0.5px 1.5px 2.5px rgba(0,0,0,0.3);
+}
+.blog-preview:hover {
+  box-shadow: 1px 3px 5px rgba(0,0,0,0.5);
+}
+.blog-preview h2 {
+  font-size: 20px;
+  color: #f1356d;
+  margin-bottom: 8px;
+}
+.blog-preview a{
+  text-decoration: none;
+}
+.blog-preview button{
+  background-color: #f1356d;
+  color:#fff;
+  border:0;
+  margin:10px 10px 5px 5px;
+  padding:8px;
+  border-radius:8px;
+  cursor:pointer;
+}
+.blog-preview button:hover{
+  box-shadow:1px 3px 5px rgba(0,0,0,0.5);
+}
+#deledit{
+  text-align: right;
+}
+#shownum{
+  margin-left: -9px;
+}
+/* create new blog form */
+.create {
+  margin: 0 auto;
+  padding: 20px;
+  box-sizing: border-box;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.5); /* Horizontal offset, Vertical offset, Blur radius, Color */
+  margin-bottom: 80px;
+}
+
+
+.create input{
+  width: 50%;
+  padding: 6px 10px;
+  margin: 10px 0;
+  border: 1px solid #ddd;
+  box-sizing: border-box;
+  text-align: left;
+}
+
+.create textarea{
+  width: 100%;
+  padding: 6px 10px;
+  margin: 10px 0;
+  border: 1px solid #ddd;
+  box-sizing: border-box;
+}
+.create button {
+  font-size: 1.125rem;
+  background: #f1356d;
+  color: #fff;
+  border: 0;
+  padding: 8px;
+  border-radius: 8px;
+  cursor: pointer;
+}
+.create button:hover{
+  font-size: 1.2rem;
+}
+.signup input{
+  width: 80%;
+  padding: 6px 10px;
+  margin: 10px 0;
+  display: block;
+  box-sizing: border-box;
+}
+
+.signup input:hover{
+  box-shadow:1px 3px 5px rgb(106, 105, 105);
+}
+
+.signup label{
+  font-weight: bold;
+}
+
+.signbutton {
+  margin:70px 0;
+  width:80%;
+  text-align: center;
+}
+
+.signbutton button{
+  font-size: 1.125rem;
+  border:2px solid black;
+}
+
+.signbutton button:hover {
+  color:#f1356d;
+  font-size: 1.4rem;
+  box-shadow:1px 3px 5px rgb(74, 73, 73);
+  cursor: pointer;
+}
+
+.signin input{
+  width: 80%;
+  padding: 6px 10px;
+  margin: 10px 0;
+  display: block;
+  box-sizing: border-box;
+}
+
+.signin input:hover{
+  box-shadow:1px 3px 5px rgb(106, 105, 105);
+}
+
+.signin label{
+  font-weight: bold;
+}
+
+.not-found p {
+  margin:30px 0;
+}
+.not-found a{
+  background-color: #f1356d;
+  color:#fff;
+  text-decoration: none;
+  padding:5px;
+  border:1px solid black;
+  border-radius: 8px;
+}
